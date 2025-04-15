@@ -14,3 +14,19 @@ MIST 4610
 4.Lutz, Nic [@niclutz3]
 
 5.Tanti, Dev [@DevTanti]
+
+## Dataset Overview
+
+## Question 1
+
+## Question 2
+
+## Manipulations
+
+## Analysis and Results
+
+## Sources
+
+
+
+
