@@ -18,9 +18,9 @@ MIST 4610
 ## Dataset Overview
 
 ## Question 1
-
+What is the average electric range from each manufacturer?
 ## Question 2
-
+What are the top 5 manufacturers in WA?
 ## Manipulations
 
 ## Analysis and Results
