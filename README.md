@@ -53,7 +53,8 @@ address of the vehicle owner. This will vary significantly by location.
 the vehicle is registered. This provides a more granular geographic identifier.
 
 ## Question 1
-What are the top 5 electric car manufactures in the USA?
+What are the top 5 electric car manufacturers in the USA?
+
 ![image](https://github.com/user-attachments/assets/62e2e37f-367d-41a1-ba5c-ba4178ba7abb)
 
 We chose to represent this question in a bar graph format. Each bar graph includes the different types of models a manufacturer has and all the years a car was produced by a manufacturer.
