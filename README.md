@@ -60,6 +60,11 @@ the vehicle is registered. This provides a more granular geographic identifier.
 What are the top 5 electric car manufactures in the USA?
 ![image](https://github.com/user-attachments/assets/62e2e37f-367d-41a1-ba5c-ba4178ba7abb)
 
+We chose to represent this question in a bar graph format. Each bar graph includes the different types of models a manufacturer has and all the years a car was produced by a manufacturer.
+
+This is an important question as it highlights the best manufacturer in the electric car industry. The main reason different auto manufacturers would want to see who the best in the electric car industry is to get advice on how to build better electric cars to compete in the market. For example, in our data set, Tesla was the best manufacturer. However, let's say Kia and Ford wanted to improve their car, they can see based on our bar graph that Tesla is the best and ask for advice on how to improve their cars, whether it’s through battery technology, providing a larger charging network, they can collaborate and provide parts to one another, etc. 
+
+
 ## Question 2
 Which county has the most electric cars in Califronia?
 ![image](https://github.com/user-attachments/assets/60b7ceec-6e06-443c-ad56-27adae938638)
