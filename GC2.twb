@@ -1,0 +1,1654 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Electric_Vehicle_Population_Data' inline='true' name='federated.0xxu7vf0tvfr4h18c7u0000wrgs7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Electric_Vehicle_Population_Data' name='textscan.1f9jrek0v4xlfh15f9o9a0mroxk1'>
+            <connection class='textscan' directory='C:/Users/devta/Downloads' filename='Electric_Vehicle_Population_Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1f9jrek0v4xlfh15f9o9a0mroxk1' name='Electric_Vehicle_Population_Data.csv' table='[Electric_Vehicle_Population_Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='VIN (1-10)' ordinal='0' />
+            <column datatype='string' name='County' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='Postal Code' ordinal='4' />
+            <column datatype='integer' name='Model Year' ordinal='5' />
+            <column datatype='string' name='Make' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Electric Vehicle Type' ordinal='8' />
+            <column datatype='string' name='Clean Alternative Fuel Vehicle (CAFV) Eligibility' ordinal='9' />
+            <column datatype='integer' name='Electric Range' ordinal='10' />
+            <column datatype='integer' name='Base MSRP' ordinal='11' />
+            <column datatype='integer' name='Legislative District' ordinal='12' />
+            <column datatype='integer' name='DOL Vehicle ID' ordinal='13' />
+            <column datatype='string' name='Vehicle Location' ordinal='14' />
+            <column datatype='string' name='Electric Utility' ordinal='15' />
+            <column datatype='integer' name='2020 Census Tract' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VIN (1-10)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VIN (1-10)]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>VIN (1-10)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postal Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Postal Code]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Postal Code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Model Year]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Model Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric Vehicle Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electric Vehicle Type]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Electric Vehicle Type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clean Alternative Fuel Vehicle (CAFV) Eligibility</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Clean Alternative Fuel Vehicle (CAFV) Eligibility]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Clean Alternative Fuel Vehicle (CAFV) Eligibility</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric Range</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Electric Range]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Electric Range</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base MSRP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Base MSRP]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Base MSRP</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Legislative District</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Legislative District]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Legislative District</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOL Vehicle ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DOL Vehicle ID]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>DOL Vehicle ID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vehicle Location]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Vehicle Location</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric Utility</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electric Utility]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>Electric Utility</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 Census Tract</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2020 Census Tract]</local-name>
+            <parent-name>[Electric_Vehicle_Population_Data.csv]</parent-name>
+            <remote-alias>2020 Census Tract</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Model Year]' role='dimension' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Vin (1-10)' datatype='string' name='[VIN (1-10)]' role='dimension' type='nominal' />
+      <column caption='Electric_Vehicle_Population_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]' role='measure' type='quantitative' />
+      <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/devta/AppData/Local/Temp/TableauTemp/#TableauTemp_16zfpgp09iv6n512y1bn50tzlawj.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/14/2025 07:27:20 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>VIN (1-10)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[VIN (1-10)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>VIN (1-10)</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19487</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>County</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[County]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>County</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>828</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Postal Code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Postal Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Postal Code</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1091</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Model Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Model Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Model Year</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Make</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Make]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Make</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>94</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Model</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Model]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Model</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>355</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Electric Vehicle Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Electric Vehicle Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Electric Vehicle Type</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Clean Alternative Fuel Vehicle (CAFV) Eligibility</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Clean Alternative Fuel Vehicle (CAFV) Eligibility]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Clean Alternative Fuel Vehicle (CAFV) Eligibility</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Electric Range</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Electric Range]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Electric Range</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>224</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Base MSRP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Base MSRP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Base MSRP</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Legislative District</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Legislative District]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Legislative District</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DOL Vehicle ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DOL Vehicle ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DOL Vehicle ID</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>235692</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vehicle Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Vehicle Location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vehicle Location</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1078</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Electric Utility</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Electric Utility]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Electric Utility</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2020 Census Tract</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2020 Census Tract]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2020 Census Tract</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Electric_Vehicle_Population_Data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6844</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:County:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Anne Arundel&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Charleston&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DeKalb&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Grays Harbor&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Jackson&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Liberty&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Muscogee&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Philadelphia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;San Francisco&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Suffolk&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Williamson&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Brevard&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Contra Costa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Franklin&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hoke&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kootenai&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Medina&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Orange&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Pulaski&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Solano&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Wake&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Alexandria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Calvert&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Currituck&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Galveston&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Howard&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Larimer&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Monterey&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Palm Beach&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Rockingham&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;St. Louis&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Washtenaw&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Atlantic&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Chesterfield&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Duval&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hardin&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kauai&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Macomb&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Placer&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sarasota&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Thurston&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Yuba&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Arapahoe&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Charlottesville&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Greene&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;James City&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lincoln&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;New Castle&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pierce&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;San Juan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sussex&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Wise&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Allegheny&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Camden&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cuyahoga&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Garfield&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hudson&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Leavenworth&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Montgomery&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Pend Oreille&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sacramento&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;St. Mary&apos;s&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Whatcom&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Berkeley&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Collin&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ferry&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Henrico&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kittitas&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Maui&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Okanogan&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prince William&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Skamania&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Volusia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Adams&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bristol&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cook&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Frederick&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Honolulu&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Lake&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mercer&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Osceola&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Richmond&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sonoma&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Walla Walla&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bell&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Clallam&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Fairfax&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hartford&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kings&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Marion&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nueces&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prince George&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Shelby&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ventura&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Allen&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Carroll&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dallas&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Geary&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Island&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Lee&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Moore&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Penobscot&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;San Bernardino&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Stafford&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Whitman&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Autauga&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Christian&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;El Paso&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Harford&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Kent&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Madison&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Newport&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Plaquemines&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Saratoga&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tom Green&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Baltimore&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Churchill&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Escambia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Harnett&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kern&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Maricopa&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Norfolk&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Polk&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sarpy&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tooele&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Benton&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Clark&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Falls Church&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hennepin&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kitsap&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mason&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Okaloosa&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prince George&apos;s&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Skagit&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Virginia Beach&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bexar&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Columbia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Forsyth&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hillsborough&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Klickitat&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Meade&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Oldham&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Providence&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Snohomish&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Wahkiakum&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Arlington&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Chelan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Doña Ana&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gwinnett&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Jefferson&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Los Angeles&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;New Haven&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pima&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;San Mateo&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tarrant&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Yakima&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Anchorage&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Charles&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Davidson&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Grant&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Isle of Wight&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Lewis&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Multnomah&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pettis&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;San Diego&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Stevens&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Williamsburg&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Alameda&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Brown&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cowlitz&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fredericksburg&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Horry&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Lane&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Miami-Dade&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Otero&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Riverside&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Spokane&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wasco&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Beaufort&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Clackamas&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Essex&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Harris&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;King&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Marin&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Northampton&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Portsmouth&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sedgwick&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Travis&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Asotin&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Chesapeake&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Douglas&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hamilton&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Johnson&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Loudoun&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;New London&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Pinal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Santa Clara&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Texas&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;York&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Albemarle&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Burlington&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cumberland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Fresno&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Houston&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Laramie&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Middlesex&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Pacific&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Rockdale&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;St. Charles&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Washoe&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Make:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;CHEVROLET&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MINI&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ACURA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;KIA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TH!NK&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BENTLEY&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;LINCOLN&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;VOLVO&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FISKER&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;POLESTAR&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CHRYSLER&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MITSUBISHI&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BMW&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;LUCID&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;WHEEGO ELECTRIC CARS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;JAGUAR&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SUBARU&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ALFA ROMEO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;LAMBORGHINI&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;TOYOTA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;HONDA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ROLLS-ROYCE&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BRIGHTDROP&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MAZDA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;FORD&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PORSCHE&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;GENESIS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;RAM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HYUNDAI&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SMART&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;JEEP&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TESLA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DODGE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MULLEN AUTOMOTIVE INC.&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CADILLAC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MERCEDES-BENZ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AUDI&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;LAND ROVER&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;VINFAST&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;GMC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;RIVIAN&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FIAT&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;NISSAN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AZURE DYNAMICS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;LEXUS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;VOLKSWAGEN&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Electric_Vehicle_Population_Data.csv' id='Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC'>
+            <properties context=''>
+              <relation connection='textscan.1f9jrek0v4xlfh15f9o9a0mroxk1' name='Electric_Vehicle_Population_Data.csv' table='[Electric_Vehicle_Population_Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='VIN (1-10)' ordinal='0' />
+                  <column datatype='string' name='County' ordinal='1' />
+                  <column datatype='string' name='City' ordinal='2' />
+                  <column datatype='string' name='State' ordinal='3' />
+                  <column datatype='integer' name='Postal Code' ordinal='4' />
+                  <column datatype='integer' name='Model Year' ordinal='5' />
+                  <column datatype='string' name='Make' ordinal='6' />
+                  <column datatype='string' name='Model' ordinal='7' />
+                  <column datatype='string' name='Electric Vehicle Type' ordinal='8' />
+                  <column datatype='string' name='Clean Alternative Fuel Vehicle (CAFV) Eligibility' ordinal='9' />
+                  <column datatype='integer' name='Electric Range' ordinal='10' />
+                  <column datatype='integer' name='Base MSRP' ordinal='11' />
+                  <column datatype='integer' name='Legislative District' ordinal='12' />
+                  <column datatype='integer' name='DOL Vehicle ID' ordinal='13' />
+                  <column datatype='string' name='Vehicle Location' ordinal='14' />
+                  <column datatype='string' name='Electric Utility' ordinal='15' />
+                  <column datatype='integer' name='2020 Census Tract' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='What are the top 5 electric car manufacturers in the USA?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Electric_Vehicle_Population_Data' name='federated.0xxu7vf0tvfr4h18c7u0000wrgs7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xxu7vf0tvfr4h18c7u0000wrgs7'>
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column caption='Electric_Vehicle_Population_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:Make:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Make:nk]' member='&quot;CHEVROLET&quot;' />
+              <groupfilter function='member' level='[none:Make:nk]' member='&quot;FORD&quot;' />
+              <groupfilter function='member' level='[none:Make:nk]' member='&quot;KIA&quot;' />
+              <groupfilter function='member' level='[none:Make:nk]' member='&quot;NISSAN&quot;' />
+              <groupfilter function='member' level='[none:Make:nk]' member='&quot;TESLA&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:Make:nk]' direction='ASC' using='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC:qk]' />
+          <slices>
+            <column>[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:Make:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:Make:nk]' value='69' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:Make:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:Make:nk]</rows>
+        <cols>[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC:qk]</cols>
+      </table>
+      <simple-id uuid='{33E8145C-61FE-4D34-96EE-86326E3D878A}' />
+    </worksheet>
+    <worksheet name='Which county has the most electric cars in California?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Electric_Vehicle_Population_Data' name='federated.0xxu7vf0tvfr4h18c7u0000wrgs7' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0xxu7vf0tvfr4h18c7u0000wrgs7'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Electric_Vehicle_Population_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:State:nk]'>
+            <groupfilter function='member' level='[none:State:nk]' member='&quot;CA&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[Longitude (generated)]' field-type='quantitative' max='-11699995.54954154' min='-14727279.890569238' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[Latitude (generated)]' field-type='quantitative' max='5237228.7028882038' min='3614151.8920778446' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC:qk]' />
+              <text column='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC:qk]' />
+              <lod column='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:County:nk]' />
+              <geometry column='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[Latitude (generated)]</rows>
+        <cols>[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{D4DB14CA-70EF-4AF6-82BD-EA3D9266ED8E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='What are the top 5 electric car manufacturers in the USA?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[none:Make:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F695D723-6943-41B9-9475-758F4D928406}' />
+    </window>
+    <window class='worksheet' name='Which county has the most electric cars in California?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0xxu7vf0tvfr4h18c7u0000wrgs7].[__tableau_internal_object_id__].[cnt:Electric_Vehicle_Population_Data.csv_C2E8AE0592434509A3250DB5928E1BFC:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E67C1E9B-5709-4A98-A261-8BBBC59658C8}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='What are the top 5 electric car manufacturers in the USA?' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
