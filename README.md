@@ -64,7 +64,8 @@ This is an important question as it highlights the best manufacturer in the elec
 This question is interesting mainly because it illustrates the competition in the market for electric cars. In our dataset, Tesla was the winner. This bar graph can also help determine if manufacturers should merge and how to build better products. In our dataset, Tesla came out to be the winner. If Ford and Kia started investing in Tesla, they could take notes and see where they need to improve, and potentially see an increase in production for electric cars. Auto manufacturers are a huge business in the US. Lots of technological improvements and new products are released every few years to become dominant in the EV market. 
 
 ## Question 2
-Which county has the most electric cars in Califronia?
+Which county has the most electric cars in California?
+
 ![image](https://github.com/user-attachments/assets/60b7ceec-6e06-443c-ad56-27adae938638)
 
 ## Manipulations
