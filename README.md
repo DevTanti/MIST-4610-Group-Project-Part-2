@@ -18,9 +18,9 @@ MIST 4610
 ## Dataset Overview
 
 ## Question 1
-What is the average electric range from each manufacturer?
+What are the top 5 electric car manufactures in the USA?
 ## Question 2
-What are the top 5 manufacturers in WA?
+Which county has the most electric cars in Califronia?
 ## Manipulations
 
 ## Analysis and Results
