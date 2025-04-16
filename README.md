@@ -13,7 +13,7 @@ MIST 4610
 
 4.Lutz, Nic [@niclutz3]
 
-5.Tanti, Dev [@DevTanti]
+5.Tanti, Dev [@DevTanti](https://github.com/DevTanti/MIST-4610-Group-Project-Part-2/tree/main)
 
 ## Dataset Overview
 
