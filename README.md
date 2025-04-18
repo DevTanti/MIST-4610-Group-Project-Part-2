@@ -11,7 +11,7 @@ MIST 4610
 
 3.Gregg, Stephen [@SGREGG-4]
 
-4.Lutz, Nic [@niclutz3]
+4.Lutz, Nic [@niclutz3](https://github.com/niclutz3/MIST-4610-Group-Project-Part-2)
 
 5.Tanti, Dev [@DevTanti](https://github.com/DevTanti/MIST-4610-Group-Project-Part-2/tree/main)
 
