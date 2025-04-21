@@ -76,6 +76,10 @@ This is particularly important to manufacturers of electric cars because Califor
 
 ## Analysis and Results
 
+For the first question, we created a bar graph in Tableau to visualize the top five electric car manufacturers in the United States based on the total number of electric vehicles they have manufactured over the years. The data shows that Tesla leads the pack, as it has five times more production than its closest competitors. Kia, Ford, Chevrolet, and Nissan are among the top five; however, they do not match Tesla's output. In terms of real-world implications, other leading EV manufacturers must analyze this data to determine what separates Tesla from its competitors. By identifying this distinction, they can aspire to match Tesla’s output or even surpass it over time. Additionally, this kind of performance data could influence strategic decisions such as partnerships, mergers, or R&D investments to enhance product offerings. Ultimately, while the graph shows the top competitors and who is leading in EV manufacturing, it also highlights areas for growth and opportunity within the sector. 
+
+To address the second question, we created a heat map in Tableau to pinpoint California counties with the highest concentration of electric vehicles. Counties are shaded according to their registered EV numbers, with deeper shades representing larger quantities. This analysis is intriguing, as most would assume the San Francisco Bay has the most EV concentration; however, San Diego has the highest concentration in the state. Through this graphic, we see there are opportunities in many areas of untapped potential, such as San Francisco, Kern, Placer, and many more. This data can be of great value for EV car manufacturers as they plan how to pivot their markets to different counties and even to different states or regions as time advances. By boosting EV adoption in underperforming counties with large populations, companies can significantly grow their market share and enhance shareholder margins. 
+
 ## Sources
 
 https://catalog.data.gov/dataset/electric-vehicle-population-data
