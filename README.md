@@ -74,6 +74,10 @@ This is particularly important to manufacturers of electric cars because Califor
 
 ## Manipulations
 
+For Question 1, we applied a filter to the Make field to show the top 5 manufacturers in the country. We did this as they represent a large majority of the EV market and including more would make the data more cluttered. 
+
+For Question 2, we applied a filter to the State field, focusing solely on California, to show ownership by counties within the state. We did this because California is by far the largest market for EVs and it creates a much more interesting visualization.
+
 ## Analysis and Results
 
 For the first question, we created a bar graph in Tableau to visualize the top five electric car manufacturers in the United States based on the total number of electric vehicles they have manufactured over the years. The data shows that Tesla leads the pack, as it has five times more production than its closest competitors. Kia, Ford, Chevrolet, and Nissan are among the top five; however, they do not match Tesla's output. In terms of real-world implications, other leading EV manufacturers must analyze this data to determine what separates Tesla from its competitors. By identifying this distinction, they can aspire to match Tesla’s output or even surpass it over time. Additionally, this kind of performance data could influence strategic decisions such as partnerships, mergers, or R&D investments to enhance product offerings. Ultimately, while the graph shows the top competitors and who is leading in EV manufacturing, it also highlights areas for growth and opportunity within the sector. 
