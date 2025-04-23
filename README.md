@@ -5,7 +5,7 @@ MIST 4610
 71552 Group 8
 
 ## Team Members:
-1.Alt, Jared [@jaralt]
+1.Alt, Jared [@jaralt](https://github.com/jaralt/Mist-4610-Group-Project-Part-2)
 
 2.Cheetha Rajesh, Sai [@saicheetha]
 
